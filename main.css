@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    text-align: left;
+}
+
+body {
+  background: white;
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  margin: 0px;
+}
+
+
+
+.parallax-window {
+    
+    min-height: 300px;
+    background: transparent;
+    text-align: center;
+}
+
+.landing-container {
+    height: 100vh;
+}
+
+.links-container {
+    padding-top: 90px;
+    color: black;
+    background: white;
+    text-align: center;
+}
+
+.link-text {
+    font-size: 20px;
+}
+
+
+.link-container {
+    display: inline-block;
+    margin: 0px 25px;
+}
+
+.link-img {
+    width: 310px;
+    height: 215px;
+}
+
+.landing-img {
+    /* height: 100vh; */
+    /* height: 70%; */
+    height: 100%;
+}
+
+.yakhead-logo {
+    margin-top: 30px;
+    width: 240px;
+}
+
+.divider-line {
+    border-top: 1px solid #808080;
+    width: 1052px;
+    margin: auto;
+    opacity: .4;
+    margin-bottom: 42px;
+}
+
+.about-snippet-container {
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.about-snippet {
+    display: inline-block;
+}
+
+.about-snippet-text {
+    font-size: 15px;
+    width: 89%;
+    margin: 0px auto 30px;
+    color: #818181;
+}
+
+.promo-video {
+    display: inline-block;
+    /* width: 39%; */
+}
+
+.one-stop-title {
+    font-size: 36px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.zongshen-img-container {
+    height: 600px;
+}
+
+.zongshen-img {
+    height: 600px;
+}
+
+section {
+    margin: auto;
+    padding: 0 5%;
+}
+
+#about {
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+}
+
+.about-us-left-container, .about-us-right-container {
+    display: block;
+    text-align: center;
+    
+}
+
+.about-us-text, .our-story-text {
+    font-size: 14px;
+    color: #818181;
+}
+
+.hike-image {
+    width: 320px;
+}
+
+.section-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 32px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.monk-kids-img-container {
+    /* height: 400px; */
+}
+
+.monk-kids-img {
+    height: 600px;
+}
+
+.our-story-container {
+    margin-top: 50px;
+}
+
+
+.our-story-left-container, .our-story-right-container {
+    display: block;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.departure-img {
+    width: 320px;
+    margin-left: 40px
+}
+
+.video-container {
+    display: block;
+    margin: 10px auto;
+    width: 320px;
+}
+
+#videos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.contact-us-img {
+    height: 600px;
+}
+
+.contact-us-text{
+    text-align: center;
+}
+
+.email-link, .read-more-link {
+    color: #318EC6;
+}
+
+.social-icons-footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fab {
+    font-size: 40px;
+    margin: 0px 30px;
+    color: #318EC6;
+}
+
+
+
+
+
+nav a {
+   margin: 0px 8px;
+}
+
+nav {
+  display: none;
+  height: 50px;
+  padding-top: 12px;
+  background: #0B0A07;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 6px 6px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav-button {
+  /* margin: 0px 8px;  */
+}
+
+header {
+  /* display: inline-block;
+  background-color: #333333;
+  height: 100vh; */
+}
+
+
+
+
+
+
+
+footer {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  padding: 1% 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+ .video-container {
+        margin: 30px auto; 
+        width: 480px;
+        height: 270px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+  nav {
+    text-align: right;
+    padding-right: 30px;
+  }
+
+   .nav-item:hover {
+    color: #FFA660;
+  }
+
+}
+
+@media only screen and (min-width: 1120px) {
+
+  .about-us-left-container, .about-us-right-container {
+        display: inline-block;
+        width: 49%;
+        /* border: 1px solid red; */
+        height: 320px;
+        vertical-align: top
+    }
+
+    .hike-image {
+        width: 445px;
+        margin-left: 30px;
+    }
+
+    .our-story-left-container {
+        width: 48%;
+    }
+
+    .our-story-left-container, .our-story-right-container {
+        display: inline-block;
+        height: 320px;
+        vertical-align:top
+    }
+
+    .departure-img {
+        width: 475px;
+        margin-left: 40px
+    }
+
+    .links-container {
+        height: 380px;
+    }
+
+    .about-snippet-container {
+        width: 1010px;
+    }
+
+    .about-snippet {
+        width: 50%;
+    }
+
+    .about-snippet-container {
+        margin: auto;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .about-snippet-text {
+        width: 100%;
+    }
+
+    .one-stop-title {
+        text-align: left;
+    }
+
+    .video-container {
+        margin: 30px auto; 
+        width: 1008px;
+        height: 567px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
